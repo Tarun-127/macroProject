@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: blanchedalmond;
+    padding: 1rem 2rem;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+nav a{
+    color: brown;
+    transition: all 0.3s;
+}
+nav a:hover{
+    color: coral;
+}
+
+main {
+    padding: 1rem 2rem;
+    height: 90vh;
+}
+input{
+   width: 20rem;
+}
+footer{
+    padding: 1rem 2rem;
+    height:5vh ;
+    background-color: rgb(146, 114, 66);
+    padding: 1rem 2rem;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

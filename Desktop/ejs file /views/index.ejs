@@ -1,0 +1,22 @@
+<%- include("layout/header")%>
+    <main>
+        
+
+         <form action=" " method ="post">
+            <input type="text" placeholder="enter programming languages name" name="plName">
+            <button type="submit">Add Data</button>
+         </form>
+         
+
+
+        <ul>
+            <% if (plName.length>0)  { %>
+            <% for (let i=0; i<plName.length;i++){ %>
+                <li><%=plName[i]%></li>
+           <% } %>
+            <% }else{%>
+                <p>no data available</p>
+          <%  }%>
+        </ul>
+    </main>
+    <%- include("layout/footer")%>
